@@ -1,9 +1,3 @@
-/*
-	巧妙地利用SVG过滤器来创建“变形文本”效果。
-  从本质上讲，它将两个文本元素层叠在一起，并根据哪个文本应该更突出来模糊它们。
-  一旦应用了模糊，两个文本一起通过一个阈值过滤器，产生“胶粘”效果。
-*/
-
 const elts = {
   text1: document.getElementById("text1"),
   text2: document.getElementById("text2") };
@@ -11,12 +5,11 @@ const elts = {
 
 /* 要在其中变形的字符串。你可以把这些换成你想要的任何东西！ */
 const texts = [
-"Can",
-"I",
-"have",
-"one",
-"click",
-"triple?"
+"Hey~",
+"dod",
+"you",
+"miss",
+"me?"
 ];
 
 
